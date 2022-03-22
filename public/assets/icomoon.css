@@ -1,0 +1,116 @@
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?qn5ujj');
+  src:  url('/fonts/icomoon.eot?qn5ujj#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?qn5ujj') format('truetype'),
+    url('/fonts/icomoon.woff?qn5ujj') format('woff'),
+    url('/fonts/icomoon.svg?qn5ujj#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-charity:before {
+  content: "\e90f";
+}
+.icon-comas:before {
+  content: "\e900";
+}
+.icon-graph:before {
+  content: "\e902";
+}
+.icon-price:before {
+  content: "\e903";
+}
+.icon-left-angle:before {
+  content: "\e908";
+}
+.icon-right-angle:before {
+  content: "\e909";
+}
+.icon-heart:before {
+  content: "\e90a";
+}
+.icon-twiter:before {
+  content: "\e90b";
+}
+.icon-teligram:before {
+  content: "\e90c";
+}
+.icon-img14:before {
+  content: "\e90d";
+}
+.icon-users:before {
+  content: "\e90e";
+}
+.icon-dimond:before {
+  content: "\e910";
+}
+.icon-bitcoin:before {
+  content: "\e911";
+}
+.icon-lemp:before {
+  content: "\e912";
+}
+.icon-bottom-angle:before {
+  content: "\e913";
+}
+.icon-left-arrow:before {
+  content: "\e914";
+}
+.icon-tick:before {
+  content: "\e915";
+}
+.icon-cros:before {
+  content: "\e917";
+}
+.icon-refresh:before {
+  content: "\e918";
+}
+.icon-eye:before {
+  content: "\e919";
+}
+.icon-share:before {
+  content: "\e91a";
+}
+.icon-edit:before {
+  content: "\e91b";
+}
+.icon-img30:before {
+  content: "\e91d";
+}
+.icon-refresh2:before {
+  content: "\e91e";
+}
+.icon-doc:before {
+  content: "\e921";
+}
+.icon-heart2:before {
+  content: "\e922";
+}
+.icon-logout:before {
+  content: "\e923";
+}
+.icon-notification:before {
+  content: "\e924";
+}
+.icon-wallet:before {
+  content: "\e925";
+}
+
