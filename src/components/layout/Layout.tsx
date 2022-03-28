@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import {Footer} from "../footer/Footer";
+import Footer from "../footer/Footer";
 
 const Layout = ({ children }: any) => {
   return (
-    <div className="relative">
+    <div>
       <Navbar />
       {children}
       <Footer />

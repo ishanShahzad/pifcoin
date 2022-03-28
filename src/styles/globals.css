@@ -4,15 +4,6 @@
 
 @layer base {
   @font-face {
-    font-family: "SofiaPro-Regular";
-    src: url("/fonts/SofiaPro-Regular.woff2") format("woff2"),
-      url("/fonts/SofiaPro-Regular.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  @font-face {
     font-family: "SofiaPro-Bold";
     src: url("/fonts/SofiaPro-Bold.woff2") format("woff2"),
       url("/fonts/SofiaPro-Bold.woff") format("woff");
@@ -32,8 +23,8 @@
 
   @font-face {
     font-family: "SofiaPro-SemiBold";
-    src: url("/fonts/SofiaPro-SemiBold.woff2") format("woff2"),
-      url("/fonts/SofiaPro-SemiBold.woff") format("woff");
+    src: url("SofiaPro-SemiBold.woff2") format("woff2"),
+      url("SofiaPro-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -66,297 +57,31 @@
     font-display: swap;
   }
 
+
+
   body {
-    @apply font-SofiaPro text-xl text-white;
+    font-family: "SofiaPro";
   }
 }
-.bd {
-  border: 2px solid red;
-}
-.container {
-  @apply px-5 sm:px-16 md:px-24 lg:px-40 xl:px-52 2xl:px-[17.5rem] max-w-[1920px] mx-auto;
-}
+
 h1 {
-  @apply text-4xl  md:text-6xl xl:text-5.5rem  font-SofiaPro-Bold;
+  @apply text-4xl  md:text-6xl xl:text-5.5rem text-primary  font-SofiaPro-Bold;
 }
 h2 {
-  @apply text-2xl md:text-3xl xl:text-5xl font-SofiaPro-Bold;
+  @apply text-3xl  md:text-5xl xl:text-4rem text-primary font-SofiaPro-Bold;
 }
 h3 {
-  @apply text-2xl md:text-3xl xl:text-4xl font-SofiaPro-Bold;
+  @apply text-5xl text-primary font-SofiaPro-Bold;
 }
 h4 {
-  @apply text-2xl lg:text-2rem  font-SofiaPro-Bold;
+  @apply text-2rem text-primary font-SofiaPro-Bold;
 }
 h5 {
-  @apply text-2xl  font-SofiaPro-Bold;
+  @apply text-2xl text-primary font-SofiaPro-Bold;
 }
 h6 {
-  @apply text-lg  font-SofiaPro-Bold;
+  @apply text-lg text-primary font-SofiaPro-Bold;
 }
 p {
-  @apply text-xl text-white font-SofiaPro;
+  @apply text-base text-secondary font-SofiaPro;
 }
-a {
-  @apply text-lg !text-white font-SofiaPro;
-}
-.AtStatusBtn {
-  @apply text-sm  py-2 border border-gray1 hover:bg-pink hover:border-none;
-}
-
-figure {
-  line-height: 0;
-}
-.parent-card:hover .player {
-  display: block;
-}
-.parent-card:hover .picture1 {
-  opacity: 0.6;
-}
-.navimage {
-  background-image: url("/assets/images/landing/img1.png");
-  background-color: 100% 100%;
-}
-.AtBaseImage1,
-.AtBaseImage2,
-.AtBaseImage3,
-.AtBaseImage4 {
-  background-image: url("/assets/images/landing/img1.png");
-  background-color: 100% 100%;
-  height: 790px;
-}
-.AtBaseImage2 {
-  background-image: url("/assets/images/landing/img2.png");
-}
-.AtBaseImage3 {
-  background-image: url("/assets/images/landing/img3.png");
-}
-.AtBaseImage4 {
-  background-image: url("/assets/images/landing/img4.png");
-}
-.whitepape-backround {
-  width: 100%;
-  position: relative;
-  background: #000000;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/assets/images/landing/roadmap.png");
-  background-size: 100% 100%;
-  mix-blend-mode: luminosity;
-}
-.AtOptioncolor {
-  background-image: linear-gradient(
-    rgba(38, 26, 67, 0.9),
-    rgba(38, 26, 67, 0.9)
-  );
-}
-.login-background {
-  width: 100%;
-  background-image: url("/assets/images/landing/login.png");
-  background-size: 100% 100%;
-}
-.marketplace-backround {
-  width: 100%;
-  background-image: url("/assets/images/landing/charity.png");
-  background-size: 100% 100%;
-}
-
-.market-relation {
-  width: 100%;
-  background-image: url("/assets/images/landing/nft.png");
-  background-size: 100% 100%;
-}
-.compaigns-background {
-  background-image: url("/assets/images/campaigns/bg.png");
-  background-size: 100% 100%;
-  margin-top: -10px;
-}
-.AtMarketplace-background {
-  background-image: url("/assets/images/marketplace/main.png");
-  background-size: 100% 100%;
-}
-.campaigndetail-background {
-  background-image: url("/assets/images/compaigndetail/main.png");
-  background-size: 100% 100%;
-}
-
-.PIFEssentails {
-  width: 100%;
-  background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url("/assets/images/landing/PIFEssentails.jpg");
-  background-size: 100% 100%;
-}
-.aboutus {
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/images/aboutus/about.jpg");
-
-  background-size: 100% 100%;
-}
-.campaigndetail-img1 {
-  width: 100%;
-  background-image: url("/assets/images/compaigndetail/img1.png");
-  background-size: 100% 100%;
-}
-.campaignresult-background {
-  background-image: url("/assets/images/campaignresult/main.png");
-  background-size: 100% 100%;
-}
-.profile-background {
-  width: 100%;
-  background-image: url("/assets/images/profile/profile.jpg");
-  background-size: 100% 100%;
-}
-
-/* ********************* Sliders ************************** */
-
-.Atslide .swiper-pagination-bullet {
-  background-color: white !important;
-  padding: 5px;
-  opacity: 1 !important;
-}
-.Atslide .swiper-pagination-bullet-active {
-  border: 2px solid #d02fc7;
-  background-color: transparent !important;
-  position: relative;
-  padding: 0.5rem;
-  margin-top: 1rem;
-}
-.Atslide .swiper-pagination-bullet-active::after {
-  content: "";
-  height: 0.625rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 100%;
-  width: 0.625rem;
-  background-color: #d02fc7;
-}
-.Atslide .swiper-pagination {
-  margin-bottom: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Atslidebotom .swiper-pagination {
-  width: 34% !important;
-  top: 33%;
-}
-
-.mySwiper .swiper-pagination-progressbar {
-  /* display: none !important; */
-  background-color: transparent;
-}
-.mySwiper .swiper-pagination-progressbar-fill {
-  background: linear-gradient(to right, black, #d02fc7) !important;
-  height: 4px !important;
-  margin-top: 450px;
-  width: 120% !important;
-  /* transform: translate3d(0px, 0px, 0px) scaleX(0.16) scaleY(1) !important; */
-  transition-duration: 300ms !important;
-}
-
-.mySwiper .swiper-wrapper {
-  padding-top: 22.5rem;
-}
-.mySwiper .swiper-button-next,
-.mySwiper .swiper-button-prev {
-  font-weight: bolder;
-  background: white;
-  border: 2px solid white;
-  padding: 1.7rem 1.8rem;
-  border-radius: 50%;
-  color: #d02fc7;
-}
-.mySwiper .swiper-button-next:after,
-.swiper-button-prev:after {
-  font-size: 23px !important;
-}
-.mySwiper .swiper-button-disabled {
-  opacity: 1 !important;
-  color: white;
-  background: transparent !important;
-  border: 2px solid white;
-}
-.mySwiper .swiper-button-next {
-  top: 25%;
-  left: 83%;
-}
-.mySwiper .swiper-button-prev {
-  left: 79%;
-  top: 25%;
-}
-.listItems {
-  color: #e9e9e9;
-  margin-top: 1.5rem;
-  list-style-type: disc;
-  list-style-position: inside;
-}
-.AtScroll::-webkit-scrollbar {
-  width: 10px;
-}
-.AtScroll::-webkit-scrollbar-track {
-  background: gray; /* color of the tracking area */
-  border-radius: 20px;
-}
-.AtScroll::-webkit-scrollbar-thumb {
-  background-color: #d02fc7;
-  border-radius: 20px;
-}
-.Atcheckbox input[type="checkbox"] {
-  -webkit-appearance: none;
-  outline: 1px solid #e9e9e9;
-}
-.Atcheckbox input[type="checkbox"]:checked {
-  -webkit-appearance: none;
-  outline: 1px solid #d02fc7;
-}
-
-.Atcheckbox input[type="checkbox"]:checked:after {
-  width: 100%;
-  height: 100%;
-  content: "✓";
-  background-color: #d02fc7;
-  display: flex;
-  font-size: 14px;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  background-color: #D02FC7;
-  /* margin-top: 0.3rem; */
-}
-
-.trr {
-  transition-duration: 1s;
-}
-
-table{
-  /* @apply ; */
-}
-th{
-  @apply py-[18px] px-5 whitespace-nowrap bg-graydull1 text-white text-base font-SofiaPro-Bold capitalize text-left;
-}
-td{
-  @apply py-[18px] px-5 bg-transparent text-primary text-base font-SofiaPro-Regular capitalize whitespace-nowrap border-t border-graydull1;
-}
-.morecompaign .swiper-wrapper{
-  padding-top: 6.625rem;
-}
-.morecompaign .swiper-button-next{
-  right: 0;
-  top: 25px;
-  left: auto;
-}
-.morecompaign .swiper-button-prev {
-  top: 25px;
-  left: auto;
-  right: 80px;
-}
-
-.bd1 {
-  border: 3px solid white;
-  left: -15px;
-}
-.white-border {
-  border: 3px solid white;
-}
-@import "../../public/assets/css/Responsive.css";
